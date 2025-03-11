@@ -2,12 +2,14 @@
 * {
   font-size: 20px;
   color: darkblue;
-  background-color: pink;
+  /* !important eklendiğinde diğer kurallara bakılmaksızın bu kural uygulanacaktır. */
+  background-color: pink !important;
 }
 
 h1 {
   text-align: center;
   font-size: 2rem;
+  color: black;
 }
 
 /* class oluşturup sadece bu class'ın verildiği elementlere uygulanacak kurallar yazabiliriz. Class isminden önce . (nokta) kullanılması zorunludur. */
@@ -16,21 +18,33 @@ h1 {
   color: pink;
 }
 
-.abc{
-    color: white;
+.abc {
+  color: white;
 }
 
 /* id oluşturup sadece bu id'nin verildiği elementlere uygulanacak kurallar yazabiliriz. Id isminden önce # (hashtag) kullanılması zorunludur. */
-#myLink{
-    text-decoration: none;
+#myLink {
+  text-decoration: none;
 }
 
 /* Daha özel bir kural belirlemek için tag ismi ve boşluk olmadan .class ismi yazılabilir => div.ortala */
-li.ortala{
-    text-align: center;
+li.ortala {
+  text-align: center;
 }
 
 /* Daha özel bir kural belirlemek için tag ismi ve boşluk olmadan #id ismi yazılabilir => div#ortala */
-a#myLink{
-    color: beige;
+a#myLink {
+  color: beige;
 }
+
+/* * (universal selector) < tag ismi < class/id < tag.class/tag#id < ... */
+
+/* Bu bir açıklama satırı/bloğudur. */
+
+/* 
+    Merhaba
+    Ben
+    Bir
+    Açıklama
+    Bloğuyum.
+*/
