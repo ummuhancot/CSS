@@ -1,0 +1,20 @@
+hi{
+    text-align: center;
+    color: rgb(79, 36, 36);
+}
+div{
+    text-align: justify;
+    background-color: steelblue;
+    color: white;
+}
+ol{
+    /* background-color: blue;
+    width: 100%; */
+    list-style-type: square;
+    color: rebeccapurple;
+    background-color: rgb(146, 146, 1);
+}
+li{
+    color: rgb(54, 90, 54);
+    background-color: pink;
+}

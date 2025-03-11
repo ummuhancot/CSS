@@ -1,0 +1,36 @@
+/* universal selector => tüm elemenaları etkileyen kurallar yazmamızı sağlar */
+* {
+  font-size: 20px;
+  color: darkblue;
+  background-color: pink;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+/* class oluşturup sadece bu class'ın verildiği elementlere uygulanacak kurallar yazabiliriz. Class isminden önce . (nokta) kullanılması zorunludur. */
+.active {
+  background-color: darkblue;
+  color: pink;
+}
+
+.abc{
+    color: white;
+}
+
+/* id oluşturup sadece bu id'nin verildiği elementlere uygulanacak kurallar yazabiliriz. Id isminden önce # (hashtag) kullanılması zorunludur. */
+#myLink{
+    text-decoration: none;
+}
+
+/* Daha özel bir kural belirlemek için tag ismi ve boşluk olmadan .class ismi yazılabilir => div.ortala */
+li.ortala{
+    text-align: center;
+}
+
+/* Daha özel bir kural belirlemek için tag ismi ve boşluk olmadan #id ismi yazılabilir => div#ortala */
+a#myLink{
+    color: beige;
+}
