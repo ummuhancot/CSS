@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    color: rebeccapurple;
+}
+
+/* yani sıralama şekilleri 1,2,3 gibi a, b ,c gibi */
+ol.ordered-list{
+    list-style-type: lower-roman;
+}
+
+ul.unordered-list{
+    list-style-type: square;
+}
+
+ul.emoji-list{
+    list-style-type: "🔥";
+}
+
+ul.custom-image-list{
+    list-style-image: url("../../assets/img/gunesin_dogusu_ve_batisi.jpg");
+    list-style-position: inside;
+    /* position işaretin pozisyonunu belirler inside/outside değerleri vardır. */
+}

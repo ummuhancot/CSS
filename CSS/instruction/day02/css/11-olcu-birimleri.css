@@ -1,0 +1,52 @@
+:root{
+    /* atama yaptımız şey referans değere atadığımız 
+    kısım yani genel bi değer belirliyoruz gibi  */
+    font-size: 20px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body{
+    height: 100vh;
+
+}
+
+h1{
+    text-align: center;
+    color: red;
+}
+
+.kutu-1{
+    background-color: crimson;
+    /* % parent'ının değerinin yüzdesini alır*/
+    width: 50%;
+}
+
+.kutu-2{
+    background-color: greenyellow;
+    /* vw ekrarın değerinin yüzdesini alır */
+    width: 50vw;
+}
+
+.kutu-3{
+    background-color: beige;
+    width: 500px;
+    font-size: 20px;
+}
+
+.kutu-4{
+    background-color: brown;
+    width: 50vw;
+    /* :root değerini referans alır. 2rem = 2 * root değeri */
+    font-size: 2rem;
+}
+
+.kutu-5{
+    background-color: blue;
+    height: 50vh;
+
+}

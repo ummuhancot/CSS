@@ -1,0 +1,52 @@
+h1.title {
+  text-align: center;
+  color: brown;
+}
+
+a.link {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+p {
+  text-decoration: dotted underline red;
+}
+/* underline altını cizer overline üstünü cizer through yazıyı cizebiliriz */
+
+ul.other li a {
+  text-decoration: none;
+  /* font-style italic | normal değerlerini alabilir. */
+  font-style: italic;
+}
+/* italik yapmak icin başka bir yöntem font - style italic seceriz */
+/* nestıd taglar olunca yazım bu şekilde olur */
+
+ul li a.active {
+  /* font-weight 100 900 arasındaki her yüzlük sayıyı alabilir. 100 en ince, 900 ise en kalındır. Bold bolder(en kalını) ve lighter(en incesi) değerleri de alabilir. p taginin varsayılan değeri 400'dür. */
+  font-weight: 900;
+}
+/* burda font yani kalınlığını belirliyor */
+
+/* ziyaret edilmemiş linkelere uygualanacak stillendirme */
+ul.other2 li a:link{
+    color: red;
+}
+
+/* ziyaret edilmiş linkelere uygualanacak stillendirme */
+ul.other2 li a:visited{
+    color: turquoise;
+}
+
+/* :hover her elementle kullanılabilir. */
+ul.other2 li a:hover{
+
+    background-color: rgb(105, 99, 230);
+    color: blueviolet;
+    
+}
+
+/* tıklandığında uygulanacak stillendirme: */
+a:active{
+    background-color: crimson;
+    color: whitesmoke;
+}

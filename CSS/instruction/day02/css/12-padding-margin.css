@@ -1,0 +1,59 @@
+/* boşluklardan eser kalmaz */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: lightcoral;
+}
+
+h1 {
+  text-align: center;
+  color: red;
+  background-color: beige;
+  /* boşluk verdik padding ile */
+  padding: 10px;
+}
+
+h2.h2 {
+  background-color: cadetblue;
+
+  /* margin-top: 10px; sadece üstten boşluk verir
+    margin-right: 20px;  sağdan boşluk verir
+    margin-bottom: 5px;  aşagıdan boşluk verir
+    margin-left: 50px;   soldan boşluk verir */
+
+  /*      üst  sağ  alt sol*/
+  margin: 10px 20px 5px 50px;
+}
+
+div.box-1 {
+  background-color: lawngreen;
+
+  /* padding-top: 10px; sadece üstten boşluk verir
+    padding-right: 20px;  sağdan boşluk verir
+    padding-bottom: 5px;  aşagıdan boşluk verir
+    padding-left: 50px;   soldan boşluk verir 
+    padding: 10px 20px 5px 50px;*/
+
+  /* padding: 10px 20px 10px 20px; */
+  /* İlk değer dikeyde, ikinci değer yatayda padding veya margin verecektir. */
+  padding: 10px 20px;
+}
+
+p.para {
+  background-color: orange;
+  /* margin: 100px; */
+}
+
+span.span {
+  background-color: darkblue;
+  color: white;
+
+  /* inline margin'de dikey değer alır, yatay değer almaz. */
+  margin: 1000000000px 10px;
+
+  /* inline padding'de yatay ve dikey değer alır ancak diğer elemanların görüntüsünü bozabilir. */
+  padding: 10px 20px;
+}

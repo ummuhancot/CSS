@@ -1,0 +1,22 @@
+h1.title{
+    text-align: center;
+    color: rebeccapurple;
+}
+
+nav.navbar{
+    background-color: lightgray;
+    /* navbar'ın arka plan rengi belirlenir */
+    width: 200px;
+    /* sayfayı genişlettiğimizde navbar'ın genişlemesini engellemek için */
+    text-align: center;
+    /* yazı hangi tarafa yaslicanı gösterir */
+    font-size: 1.5rem;
+    /* font büyüklüğü belirlenir */
+    line-height: 2rem;   
+    /* satırlar arası boşluk belirlenir */
+}
+
+.active{
+    background-color: #333;
+    color: white;
+}

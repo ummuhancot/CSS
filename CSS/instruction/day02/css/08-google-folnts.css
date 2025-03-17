@@ -1,0 +1,19 @@
+ /*Google Fonts 
+1. Font- link */
+    /* link kısmını html kısmının head kısmına yapıştırırız buraya font ailesini koplayarız  */
+h1.title{
+  font-family: "Emblema One", system-ui;
+}
+/* 2. Yöntem - @import */
+    /*@import kısmında linki   kopyalarız sadece buraya yapıştırırız ve # (hestek olarak cağrırız) font family    kısmını yapıştırırız */
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+div#text{
+      font-family: "Rock Salt", cursive;
+}
+
+/* 3. Yöntem */
+/* bu kısımda da font-family kısmında sectik */
+p.paragraph{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
