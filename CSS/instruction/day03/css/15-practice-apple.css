@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+nav.menu {
+  background-color: rgb(81, 81, 81);
+  text-align: center;
+  padding: 15px;
+}
+
+nav.menu a {
+  text-decoration: none;
+  color: whitesmoke;
+  margin: 10px;
+}
+
+nav.menu img {
+  width: 20px;
+  height: 20px;
+}
+
+nav.menu a:hover {
+  color: crimson;
+}
+
+main section {
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 20px;
+  background-color: rgb(40, 40, 40);
+}
+
+main section h2 {
+  color: whitesmoke;
+  font-size: 2.5rem;
+}
+
+main section p {
+  color: whitesmoke;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+main section div.links {
+  margin-bottom: 30px;
+}
+
+main section div.links a {
+  color: cornflowerblue;
+  margin-right: 35px;
+  text-decoration: none;
+}
+
+main section div.links a:hover {
+  color: crimson;
+}
+
+/* tüm resimleri ekrana sığdırmak icin burda sadece iphone14-pro ya uyguladık çünkü en büyük oydu */
+main section.iphone14-pro img {
+  width: 100%;
+}
+/* burda hepsini sığdırdım yukarıda sadece iphonepro yu uyguladım*/
+/* main section img{
+    width: 100%;
+} */
+
+main section.iphone14 {
+  background-color: whitesmoke;
+}
+
+main section.iphone14 h2 {
+  color: black;
+}
+
+main section.iphone14 p {
+  color: #333;
+  font-weight: 500;
+}
+
+main section.watch h2 img {
+  width: 30px;
+}
+
+main section.watch .series {
+  /* harfleri büyük harf yapmak için kullanılır */
+  text-transform: uppercase;
+  color: crimson;
+  /* harfler arasındaki boşluğu arttırmak için kullanılır */
+  letter-spacing: 10px;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+/* parent'ın n'inci çocuğunu almak için kullanılır.  */
+main section.iphone14 p:nth-child(3) {
+  font-size: 1.2rem;
+  color: #555;
+}

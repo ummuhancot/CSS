@@ -57,3 +57,22 @@ span.span {
   /* inline padding'de yatay ve dikey değer alır ancak diğer elemanların görüntüsünü bozabilir. */
   padding: 10px 20px;
 }
+
+.kutu-1{
+    width: 500px;
+    height: 500px;
+    background-color: black;
+}
+
+.kutu-2{
+    width: 100px;
+    height: 100px;
+    background-color: steelblue;
+    margin: 100px;
+}
+
+.kutu-3{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
