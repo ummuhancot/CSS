@@ -1,0 +1,76 @@
+h1{
+    text-align: center;
+    color: red;
+}
+
+div.linkler a:visited{
+    color: red;
+}
+
+div.linkler a:link{
+    color: green;
+}
+
+.btn{
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+}
+
+.btn:hover{
+    background-color: firebrick;
+    color: lawngreen;
+}
+
+.btn:active{
+    background-color: plum;
+    color: white;
+}
+
+form div input{
+    padding: 5px 10px;
+}
+
+form div input#username:focus{
+    background-color: black;
+    color: white;
+}
+
+form div input[type="checkbox"]:checked,
+form div input[type="radio"]:checked {
+    width: 50px;
+    height: 50px;
+}
+
+ul.list1 li:first-child,
+ul.list1 li:first-of-type,
+ul.list1 li:last-of-type{
+    background-color: darkgreen;
+    color: lawngreen;
+}
+
+ul.list2 li:last-child{
+    background-color: crimson;
+    color: pink;
+}
+
+ul.list3 li:nth-child(1){
+    background-color: darkblue;
+    color: steelblue;
+}
+
+/* tek sayı = odd */
+table tbody tr:nth-child(odd){
+    background-color: steelblue;
+}
+
+/* çift sayı = even */
+table tbody tr:nth-child(even){
+    background-color: orange;
+}
+
+table tbody tr td:nth-child(odd){
+    color: red;
+}

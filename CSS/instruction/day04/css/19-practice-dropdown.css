@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+    color: red;
+}
+
+nav.menu{
+    display: inline-block;
+    cursor: pointer;
+    margin: 15px;
+}
+
+nav.menu button{
+    display: inline-block;
+    background-color: violet;
+    color: lawngreen;
+    font-weight: 600;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 15px;
+}
+
+
+nav.menu ul{
+    list-style-type: "⭐ ";
+    margin-top: 5px;
+    padding: 0;
+    list-style-position: inside;
+    display: none;
+}
+nav.menu:hover ul{
+    display: block;
+}
+
+nav.menu ul li{
+    margin-bottom: 5px;
+}
+
+nav.menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/* solid altını cizmeye yarıyor üstüne gelince */
+nav.menu ul li a:hover{
+    text-decoration: none;
+    color: black;
+    color: darkmagenta;
+    border-bottom: 3px solid crimson;
+}

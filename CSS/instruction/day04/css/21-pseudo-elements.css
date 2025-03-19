@@ -1,0 +1,51 @@
+h1 {
+  text-align: center;
+  color: red;
+}
+
+h1::after,
+h1::before {
+  content: " 🤓 ";
+}
+
+p.para::first-letter {
+  font-weight: bolder;
+  font-size: 3rem;
+  font-style: italic;
+  color: blue;
+}
+
+p.para::first-line {
+  color: red;
+  font-size: 1.2rem;
+}
+
+p.para::selection {
+  background-color: blueviolet;
+  color: rgb(100, 182, 249);
+}
+
+/* secmeyi engeller user-select */
+p.paragraf {
+  background-color: red;
+  color: white;
+  user-select: none;
+}
+
+ol li::marker {
+  color: darkgoldenrod;
+  font-size: 2rem;
+}
+
+span::before {
+  content: " 🐈 ";
+  font-size: 2rem;
+  margin-right: 10px;
+}
+
+span::after {
+  content: " ⛄ ";
+  background-color: black;
+  font-size: 2rem;
+  margin: 0px 10px;
+}
