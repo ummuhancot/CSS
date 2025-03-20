@@ -1,0 +1,61 @@
+h1{
+    text-align: center;
+    color: red;
+}
+
+.container{
+    border: 5px solid red;
+
+}
+
+.inner-container{
+    border: 5px solid blue;
+    
+}
+.container a:first-child{
+    text-decoration: none;
+    color: red;
+}
+
+div.container div.inner-container span:last-child{
+    color: darkgreen;
+}
+
+div.container div.inner-container p:last-of-type{
+    color: blue;
+}
+
+
+div.container div.inner-container p:nth-child(3){
+    color: red;
+}
+
+/* div.container p{
+    background-color: yellow;
+} */
+
+
+/* Child combinator => sadece ilk derece çocuğu olan elementler etkilenir. */
+div.container > p{
+    background-color: yellow;
+}
+
+/* Next Sibling Combinator => sadece kendisinden hemen sonra gelen ilk kardeş element etkilenir. İki kardeş arasında başka bir element varsa kural uygulanmayacaktır. */
+div.container + p {
+    background-color: sandybrown;
+    color: rgb(91, 25, 25);
+}
+
+/* Subsequent Sibling Combinator => kendisinden sonra gelen kardeş elemetler etkilenir. 
++ ile farkı:
+    i.  birden fazla elementi etkileyebilir 
+    ii. kardeşi ile arasında farklı element olsa bile kural uygulanır. (Elementler ardarda olmak zorunda değildir.)  */
+div.container ~ a{
+    font-size: 30px;
+    text-decoration: none;
+    color: goldenrod;
+}
+
+h1 + div{
+    font-size: 10px;
+}

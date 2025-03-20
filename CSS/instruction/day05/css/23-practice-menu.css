@@ -1,0 +1,53 @@
+h1{
+    text-align: center;
+    color: red;
+}
+
+nav.navbar{
+    background-color: orange;
+}
+
+nav.navbar ul.menu{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav.navbar ul.menu li.menu-item{
+    display: inline-block;
+}
+
+nav.navbar ul.menu li.menu-item a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    /* display: inline-block; */
+}
+
+nav.navbar ul.menu *{
+    display: inline-block;
+}
+
+nav.navbar ul.menu li.menu-item a:hover{
+    color: black;
+}
+
+nav.navbar ul.menu li.menu-item::after{
+    content: "|";
+    color: orangered;
+}
+
+nav.navbar ul.menu li.menu-item:first-child::before{
+    content: "◀";
+    cursor: pointer; /* üzerine geldiğinde tıklanabilir gibi gösterir */
+    color: black;
+}
+
+nav.navbar ul.menu li.menu-item:last-child::after{
+    content: "▶";
+    cursor: pointer; 
+    color: black;
+}
+
+/* son element ilk uygulanır cünkü uygulayarak geliyor ve update yapıyor en sonunda */
