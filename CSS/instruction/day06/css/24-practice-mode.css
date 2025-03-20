@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+    color: red;
+}
+label.label-mode{
+    font-size: 3rem;
+    cursor: pointer;
+    user-select: none;
+    
+    /* display: inline-block;
+    width: 100%;
+    text-align: center; */
+
+    display: block;
+    text-align: center;
+}
+
+p.content{
+    text-align: justify;
+    /* font-size: 2rem; */
+    margin-top: 20px;
+}
+
+input.check-mode{
+    display: none;
+}
+
+/* input.check-mode:checked + p.content{
+    color: aliceblue;
+    background-color: darkred;
+} */
+
+input.check-mode:checked ~ p {
+    color: aliceblue;
+    background-color: #333;
+}
+
+label.label-mode:hover{
+    opacity: .85;
+}

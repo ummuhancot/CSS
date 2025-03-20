@@ -1,0 +1,33 @@
+i{
+    color: darkgreen;
+    font-size: 5rem;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li::before, li::after{
+    font: var(--fa-font-solid);
+    content: "\f0d1";
+    color: rgb(79, 71, 26);
+    margin: 10px;
+}
+
+svg{
+    width: 100px;
+}
+
+i.fa-face-rolling-eyes{
+    color: red;
+    font-size: 1.5rem;
+    margin: 10px;
+
+}
+
+i.fa-face-rolling-eyes:hover{
+    background-color:  red;
+    color: white;
+    font-size: 1.5rem;
+    margin: 10px;
+}
