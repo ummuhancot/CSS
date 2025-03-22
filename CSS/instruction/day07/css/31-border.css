@@ -1,0 +1,82 @@
+h1{
+    text-align: center;
+    color: red;
+}
+
+div{
+    text-align: center;
+    margin: 20px auto;
+    padding: 1rem;
+    width: 250px;
+}
+
+.kutu-1{
+    background-color: blanchedalmond;
+    border: 3px solid red;
+}
+
+/* burada tek bir yerde border verdik */
+.kutu-2{
+    /* border: 3px dotted rgb(144, 202, 87); */
+    /* border: 13px dashed rebeccapurple; */
+    /* border: 13px inset aqua; */
+    /* border: 14px outset yellowgreen; */
+    /* border: 15px groove indianred; */
+    /* border: 15px double cornflowerblue; */
+    border: 5px ridge hotpink;
+}
+
+/* burada 3 kısımda da  verebiliyoruz */
+.kutu-3{
+    border-width:  13px;
+    border-style: outset;
+    border-color: blueviolet;
+}
+
+.kutu-4{
+    /* border-left: 10px solid mediumaquamarine; */
+    /* border-right: 10px solid mediumaquamarine; */
+    /* border-top: 10px solid mediumaquamarine; */
+    border-bottom: 10px solid mediumaquamarine;
+}
+
+.kutu-5{
+    border-left: 10px dotted navy;
+    border-top: 10px ridge rgb(250, 0, 208);
+    border-right: 5px double saddlebrown ;
+    border-bottom: 20px outset seagreen;
+}
+
+.kutu-6{
+    border: 5px solid lightseagreen;
+    /* border-radius: 10px; */
+    /* max değerleri 75px */
+    /* max değerleri 50% */
+    border-radius: 75px;
+    /* border-radius: 50%; */
+}
+
+.kutu-7{
+    border: 10px solid brown;
+    border-radius: 50px 5px 20px 1px;
+}
+
+.kutu-8{
+    border: 5px solid midnightblue;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 1px;
+}
+
+.kutu-9{
+    background-color: red;
+    color: wheat;
+    border-radius: 30px;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}

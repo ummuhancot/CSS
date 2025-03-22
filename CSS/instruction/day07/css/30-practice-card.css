@@ -1,0 +1,53 @@
+h1{
+    text-align: center;
+    color: red;
+}
+
+.card{
+    border: 3px solid ;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.overline{
+    height: 10px;
+    display: flex;
+}
+
+.overline > div:first-child{
+    background-color: red;
+    flex: 1;
+}
+
+.overline > div:last-child{
+    background-color: pink;
+    flex: 3;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.heading > span{
+    background-color: red;
+    opacity: .7;
+    font-size: 1.5rem;
+    width: 50px;
+    height: 50px;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card > p{
+    padding: 0px 20px;
+    text-align: justify;
+    margin: 0 0 20px;
+}
