@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: red;
+  margin: 20px;
+}
+
+.box {
+  width: 400px;
+  height: 200px;
+  border: 5px solid rosybrown;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+div.bg-1 {
+  background-image: radial-gradient(gold, black);
+}
+
+div.bg-2 {
+  background-image: radial-gradient(circle, gold, black);
+}
+
+div.bg-2 {
+  background-image: radial-gradient(circle, red 50%, white 50%);
+}
+
+div.bg-3 {
+  background-image: radial-gradient(
+    circle,
+    green,
+    blue,
+    red,
+    gold,
+    violet,
+    purple,
+    black
+  );
+}
+
+.btn {
+  width: 200px;
+  height: 100px;
+  border-radius: 50px;
+  border: 5px solid chartreuse;
+  display: block;
+  margin: 20px auto;
+
+
+  background-image: radial-gradient(
+    white, 
+    pink,
+    springgreen,
+    cyan,
+    blueviolet,
+    navy,
+    black
+  );
+}
+
+.btn:hover{
+    color: white;
+      background-image: radial-gradient(circle,
+          black,
+          navy,
+          blueviolet,
+          cyan,
+          springgreen,
+          pink,
+    white
+  );
+
+}

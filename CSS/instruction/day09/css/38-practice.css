@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    color: red;
+    margin: 20px;
+}
+
+form.btn-group{
+    width: 300px;
+    margin: 50px auto;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 40px;
+
+    position: relative;
+    
+}
+
+form.btn-group input{
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0 15px;
+    color: whitesmoke;
+}
+
+form.btn-group input::placeholder{
+    color: rgb(190, 190, 190);
+}
+
+form.btn-group button{
+    background-image: linear-gradient(to left, aqua, violet);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 40px;
+    color: #333;
+
+    position: absolute;
+    top: 1.5px;
+    right: 1.5px;
+}
+
+form.btn-group button:hover{
+    background-image: linear-gradient(to right, rgb(40, 255, 0) , aqua, violet);
+    cursor: pointer;
+
+}

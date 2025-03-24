@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{    
+    /* height: 100vh; */
+    /* background-image: url("../../assets/img/ninja.gif"); */
+
+    /* DEFAULT => background-repeat: repeat; */
+    /* x ekseni üzerinde tekrar eder */
+    /* background-repeat: repeat-x; */
+    /* y ekseni üzerinde tekrar eder */
+    /* background-repeat: repeat-y; */
+    /* background-repeat: no-repeat; */
+
+
+}
+
+h1{
+    text-align: center;
+    color: red;
+    margin: 20px auto;
+}
+
+div.img-container{
+    height: 200px;
+    background-image: url("../../assets/img/gunesin_dogusu_ve_batisi.jpg");
+
+    /* DEFAULT => background-repeat: repeat; */
+    /* x ekseni üzerinde tekrar eder */
+    /* background-repeat: repeat-x; */
+    /* y ekseni üzerinde tekrar eder */
+    /* background-repeat: repeat-y; */
+    background-repeat: no-repeat;
+
+    /* ilk değer x aksisi, ikinci değer y aksisi üzerinde pozisyon almasını sağlar */
+    /* background-position: left bottom; */
+    /* background-position: center; */
+
+    /* background-size: contain; */
+    /* background-size: cover; */
+
+    /* İlk değer genişlik, ikinci değer yükseklik verecektir. */
+    background-size: 200px 200px;
+
+
+}
+
+.img-container-2{
+
+    height: 200px;
+    border: 5px ridge brown ;
+
+    background-image: url("../../assets/img/gunesin_dogusu_ve_batisi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* bunu baya begendim */
+    background-attachment: fixed;
+
+}
