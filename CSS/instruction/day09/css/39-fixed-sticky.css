@@ -5,6 +5,7 @@
 }
 
 nav.menu{
+    /* asağı doğru indiğinde menunun seninle gelmesini istiyorsan position: fixed; veririz. */
     position: fixed;
     width: 100vw;
     top: 0px;
@@ -29,6 +30,7 @@ nav.menu ul li a{
     border: 1px solid fuchsia;
     padding: 8px 16px;
     border-radius: 20px;
+    /* bu kısımda hover efektini sabitliyoruz */
     display: inline-block;
     width: 120px;
 }
@@ -45,7 +47,7 @@ nav.menu ul li a:hover{
     margin: 20px 0;
     border: 10px solid orangered;
     background-color: white;
-
+/* baştan gelir konumlanan yerde durur */
     position: sticky;
     top: 0;
     z-index: 1;
